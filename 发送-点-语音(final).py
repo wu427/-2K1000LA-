@@ -6,7 +6,7 @@ import pyaudio
 import threading
 # 配置
 #server_address = ('192.168.105.93', 9999)
-server_address = ('127.0.0.1', 9999)
+server_address = ('', )#填写你的ip和端口
 confidence_thres = 0.35
 iou_thres = 0.5
 classes = {0: 'smoke', 1: 'fire'}
