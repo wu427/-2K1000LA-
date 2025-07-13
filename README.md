@@ -63,7 +63,7 @@
 
 
 
-```markdown
+
 # 使用单目深度估计模型和语音识别模型的步骤
 
 ## 1. 单目深度估计模型
@@ -74,17 +74,17 @@
    首先，克隆 DepthAnything 项目：
 
    ```bash
-   git clone https://github.com/DepthAnything/Depth-Anything-V2
+   git clone https://github.com/DepthAnything/Depth-Anything-V2.git
    ```
 
 2. **放置文件**  
-   将克隆的文件夹放在与 `接受-深度（分开处理、三模式、语音收集）.py` 文件相同的目录下。
+   将克隆的文件夹放在与 `接受-深度（分开处理、三模式、语音收集、登录界面、记录）.py` 文件相同的目录下。
 
 3. **运行程序**  
    通过以下命令启动程序：
 
    ```bash
-   python3 接受-深度（分开处理、三模式、语音收集）.py
+   python3 接受-深度（分开处理、三模式、语音收集、登录界面、记录）.py
    ```
 
 4. **开始视频**  
@@ -94,7 +94,7 @@
    同时运行发送端的程序：
 
    ```bash
-   python3 发送-点.py
+   python3 发送-点-语音(final).py
    ```
 
 6. **深度图显示**  
